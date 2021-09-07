@@ -92,11 +92,6 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                           ),
                     ),
                   ),
-                  /* Visibility(
-                    opacity: model.userNameValid ? 0.0 : 1.0,
-                    duration: Duration.zero,
-                    child: const Text('Error'),
-                  ),*/
                   Visibility(
                     maintainState: true,
                     maintainAnimation: true,

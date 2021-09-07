@@ -4,9 +4,7 @@ import 'package:new_app_flutter/main.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
-
   static const routeName = '/home';
-
   @override
   Widget build(BuildContext context) {
 
@@ -15,14 +13,7 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text("Welcome ${args.username}"),
       ),
-      body: Container(
-        child: ElevatedButton(
-          onPressed: () {
-            Navigator.pop(context);
-          },
-          child: Text("Back"),
-        ),
-      ),
+      body: Container()
     );
   }
 }
