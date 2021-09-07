@@ -34,6 +34,9 @@ dependencies:
   json_annotation: ^4.1.0
   shared_preferences: ^2.0.7
   get_it: ^7.2.0
+  provider: ^6.0.0
+  retrofit: ^2.0.1
+  logger: ^1.1.0
 
 dev_dependencies:
   flutter_test:
