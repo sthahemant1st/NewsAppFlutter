@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:new_app_flutter/services/service_locator.dart';
-import 'package:new_app_flutter/ui/home_screen.dart';
-import 'package:new_app_flutter/ui/welcome_screen.dart';
+import 'package:new_app_flutter/ui/home/home_screen.dart';
+import 'package:new_app_flutter/ui/welcome/welcome_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() {
