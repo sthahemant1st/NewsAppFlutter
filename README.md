@@ -1,3 +1,3 @@
 # NewsAppFlutter
 
-A plactice project in flutter.
+A practice project in flutter.
